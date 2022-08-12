@@ -33,11 +33,18 @@
 
 [Памятка по git ](https://habr.com/ru/post/541258/)
 
-Функционал
+* ## **Команда Git branch** 
 
+* ## **Команда Git branch name_branch**
 
-*Команда git branch*
+* ## **Команда Git branch -d name_branch**
 
-Доп. функционал
+* ## **Команда Git merge name_branch**
 
-Функционал2
+* ## **Команда Git log -graph**
+
+* ## **Команда Git clone**
+
+* ## **Команда Git push**
+
+* ## **Команда Git pull**
