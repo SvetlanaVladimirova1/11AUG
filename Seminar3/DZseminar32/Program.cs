@@ -3,19 +3,3 @@
 //12821 -> да
 //23432 -> да
 
-Console.WriteLine("Введите пятизначное число n");
-int n = Convert.ToInt32(Console.ReadLine());
-int [] array = {n};
-int m = array.Length;
-int index = 0;
-while (index<=m)
-{
-    if (array[0] == array[4] && array[1] == array[3])
-    index++;
-
-        Console.WriteLine("да");
-}
-else
-        Console.WriteLine("нет");
-
-
