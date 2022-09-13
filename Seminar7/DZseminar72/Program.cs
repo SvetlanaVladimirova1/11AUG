@@ -23,19 +23,19 @@ for(int i=0; i < m; i++)
 Console.WriteLine();
 }
 
-Console.WriteLine("Введите координату x");
+Console.WriteLine("Введите номер строки x");
 int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("ВВведите координату y");
+Console.WriteLine("ВВведите номер столбца y");
 int y = Convert.ToInt32(Console.ReadLine());
 
 
-if(x>=3 || y>=4)
+if(x>m || y>n)
 {
      Console.Write("Такого элемента нет");
  }
 else
 {
-       Console.Write(matrix[x, y]);
+       Console.Write(matrix[x-1, y-1]);
  }
 
 
