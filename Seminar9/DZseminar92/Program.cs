@@ -11,7 +11,6 @@ int N = Convert.ToInt32(Console.ReadLine());
  int SumNumber(int M, int N)
  {
     if(M>N) return 0;
-    return (M  + SumNumber(M+1,N));
-    
+    return (M  + SumNumber(M+1,N)); 
  }
  Console.WriteLine(SumNumber(M,N));
